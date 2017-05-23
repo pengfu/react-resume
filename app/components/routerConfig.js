@@ -3,9 +3,9 @@
  */
 import Main from './Main.jsx'
 console.log(Main)
-import Tasks from './tasks/index.jsx'
-import History from './history/index.jsx'
-import Graduation from './graduation/index.jsx'
+import Tasks from './Content/Tasks/index.jsx'
+import History from './Content/History/index.jsx'
+import Graduation from './Content/Graduation/index.jsx'
 
 export default [
     {

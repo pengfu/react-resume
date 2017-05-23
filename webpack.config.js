@@ -3,6 +3,8 @@
  */
 const path = require('path');
 const appPath = path.join(path.resolve(__dirname),'app')
+const componentPath = path.join(path.resolve(__dirname),'app','components')
+const stylePath = path.join(path.resolve(__dirname),'app','style')
 console.log(appPath)
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
@@ -33,9 +35,17 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: ['style-loader',
+                    { loader: 'css-loader', options: { modules:true,importLoaders: 1 } },
+                    'postcss-loader'],
+                include: componentPath,
+                exclude: /node_modules/
+            },
+            {
+                test: /\.css$/,
+                use: ['style-loader',
                     { loader: 'css-loader', options: { importLoaders: 1 } },
                     'postcss-loader'],
-                include: appPath,
+                include: stylePath,
                 exclude: /node_modules/
             },
             {

@@ -4,6 +4,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 require('./style/normalize.css')
+require('./style/app.css')
+require ('./style/fontello/css/fontello.css')
 import App from './components/App.jsx';
 
 ReactDOM.render(<App />, document.getElementById('root'));
