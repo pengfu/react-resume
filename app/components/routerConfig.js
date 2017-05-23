@@ -2,7 +2,6 @@
  * Created by chang_su on 2017/5/18.
  */
 import Main from './Main.jsx'
-console.log(Main)
 import Tasks from './Content/Tasks/index.jsx'
 import History from './Content/History/index.jsx'
 import Graduation from './Content/Graduation/index.jsx'

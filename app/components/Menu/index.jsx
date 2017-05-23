@@ -4,7 +4,6 @@ import style from './style.css'
 
 export default class extends React.Component {
     render(){
-        console.log(JSON.stringify(style))
         return (
             <div className={style.menu}>
                 {/*<div className="avatar" >
