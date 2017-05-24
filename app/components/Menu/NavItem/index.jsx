@@ -9,7 +9,6 @@ class NavItem extends React.Component {
         const { index, onlyActiveOnIndex, to, children } = this.props
 
         const isActive = router.isActive(to, onlyActiveOnIndex)
-        console.log(isActive)
         const LinkComponent = index ? Link : IndexLink
 
         return (
