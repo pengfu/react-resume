@@ -27,6 +27,7 @@
       &:hover{
         color:#fff;
       }
+
     }
 
     &:hover{
@@ -34,4 +35,8 @@
       background-color: #000;
     }
   }
+}
+
+.active {
+  color:#fff !important;
 }

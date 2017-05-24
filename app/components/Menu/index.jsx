@@ -1,5 +1,6 @@
 import React from 'react'
-import {Link} from 'react-router'
+import {Link,IndexLink} from 'react-router'
+import NavItem from './NavItem/index.jsx'
 import style from './style.css'
 
 export default class extends React.Component {
@@ -13,18 +14,30 @@ export default class extends React.Component {
                 </div>*/}
                 <div className={style['menu-list']}>
                     <ul>
-                        <li>
+                        <NavItem to='/' index={true} onlyActiveOnIndex>
                             <i className="fontello icon-tasks"></i>
-                            <Link to="/">清风啊啊1</Link>
+                            清风啊啊1
+                        </NavItem>
+                        <NavItem to='/history'>
+                            <i className="fontello icon-history"></i>
+                            清风啊啊2
+                        </NavItem>
+                        <NavItem to='/graduation'>
+                            <i className="fontello icon-graduation-cap"></i>
+                            清风啊啊3
+                        </NavItem>
+                        {/*<li>
+                            <i className="fontello icon-tasks"></i>
+                            <IndexLink to="/" activeClassName={style.active}>清风啊啊1</IndexLink>
                         </li>
                         <li>
                             <i className="fontello icon-history"></i>
-                            <Link to="/history">清风啊啊1</Link>
+                            <Link to="/history" activeClassName={style.active}>清风啊啊1</Link>
                         </li>
                         <li>
                             <i className="fontello icon-graduation-cap"></i>
-                            <Link to="/graduation">清风啊啊1</Link>
-                        </li>
+                            <Link to="/graduation" activeClassName={style.active}>清风啊啊1</Link>
+                        </li>*/}
                     </ul>
                 </div>
             </div>
