@@ -7,7 +7,7 @@
   "author": "chang_su <chang_su@hunliji.com>",
   "license": "MIT",
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf index.html && rimraf index_bundle.js",
     "start": "webpack-dev-server",
     "build": "npm run clean && webpack --progress --colors"
   },
