@@ -14,7 +14,7 @@ git init
 git config user.name "pengfu"
 git config user.email "pengfoo@126.com"
 
-git remote add upstream "https://$GH_TOKEN@github.com/react-resume.git"
+git remote add upstream "https://$GH_TOKEN@github.com/pengfu/react-resume.git"
 git fetch upstream
 git reset upstream/gh-pages
 
