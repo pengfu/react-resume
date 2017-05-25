@@ -13983,7 +13983,7 @@ exports = module.exports = __webpack_require__(16)(undefined);
 
 
 // module
-exports.push([module.i, "\r\n.fontello {\r\n    display: inline-block;\r\n    margin-right: 10px;\r\n    font-size: 18px;\r\n}\r\nhtml {\r\n    height: 100%;\r\n}\r\nbody {\r\n    line-height: 1.4;\r\n    color: #5a6580;\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    background-color: #f4f4f3;\r\n    height: 100%;\r\n\r\n}\r\na, a:link, a:visited, a:focus, a:hover, a:active{\r\n    text-decoration:none;\r\n    cursor: pointer;\r\n}\r\nul {\r\n    padding-left:0;\r\n}\r\nul li {\r\n    list-style-type:none;\r\n}\r\n#root {\r\n    height: 100%;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n.fontello {\n    display: inline-block;\n    margin-right: 10px;\n    font-size: 18px;\n}\nhtml {\n    height: 100%;\n}\nbody {\n    line-height: 1.4;\n    color: #5a6580;\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    background-color: #f4f4f3;\n    height: 100%;\n\n}\na, a:link, a:visited, a:focus, a:hover, a:active{\n    text-decoration:none;\n    cursor: pointer;\n}\nul {\n    padding-left:0;\n}\nul li {\n    list-style-type:none;\n}\n#root {\n    height: 100%;\n}\n\n", ""]);
 
 // exports
 
@@ -14025,7 +14025,7 @@ exports = module.exports = __webpack_require__(16)(undefined);
 
 
 // module
-exports.push([module.i, ".transition-group {\r\n  position: relative;\r\n  -webkit-box-flex: 1;\r\n      -ms-flex-positive: 1;\r\n          flex-grow: 1;\r\n}\r\n\r\n.transition-group > * {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n}\r\n\r\n.repo-enter {\r\n  opacity: 0;\r\n  transition: all 300ms ease-in-out;\r\n  transition-delay: 300ms;\r\n}\r\n\r\n.repo-enter.repo-enter-active {\r\n  opacity: 1;\r\n}\r\n\r\n.repo-leave {\r\n  opacity: 1;\r\n  transition: all 300ms linear;\r\n}\r\n\r\n.repo-leave.repo-leave-active {\r\n  opacity: 0;\r\n  -webkit-transform: translateX(800px);\r\n          transform: translateX(800px);\r\n}", ""]);
+exports.push([module.i, ".transition-group {\n  position: relative;\n  -webkit-box-flex: 1;\n      -ms-flex-positive: 1;\n          flex-grow: 1;\n}\n\n.transition-group > * {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n\n.repo-enter {\n  opacity: 0;\n  transition: all 300ms ease-in-out;\n  transition-delay: 300ms;\n}\n\n.repo-enter.repo-enter-active {\n  opacity: 1;\n}\n\n.repo-leave {\n  opacity: 1;\n  transition: all 300ms linear;\n}\n\n.repo-leave.repo-leave-active {\n  opacity: 0;\n  -webkit-transform: translateX(800px);\n          transform: translateX(800px);\n}", ""]);
 
 // exports
 
@@ -14039,12 +14039,12 @@ exports = module.exports = __webpack_require__(16)(undefined);
 
 
 // module
-exports.push([module.i, "._2c76qePLvgCA8Ddthd8EiX {\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: auto;\r\n          flex: auto;\r\n}\r\n\r\n._2kLmxY5GlVN8YiQ22REEXS {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;\r\n  -webkit-box-pack: center;\r\n      -ms-flex-pack: center;\r\n          justify-content: center;\r\n  height: 100px;\r\n  font-size: 40px;\r\n  font-weight: bold;\r\n  background: #fafafe;\r\n}", ""]);
+exports.push([module.i, "._3uHqC5ScxzyGKbNbXuUM9M {\n  -webkit-box-flex: 1;\n      -ms-flex: auto;\n          flex: auto;\n}\n\n._3Qybm03C12tcPKlCdHFXqc {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  height: 100px;\n  font-size: 40px;\n  font-weight: bold;\n  background: #fafafe;\n}", ""]);
 
 // exports
 exports.locals = {
-	"content": "_2c76qePLvgCA8Ddthd8EiX",
-	"content-title": "_2kLmxY5GlVN8YiQ22REEXS"
+	"content": "_3uHqC5ScxzyGKbNbXuUM9M",
+	"content-title": "_3Qybm03C12tcPKlCdHFXqc"
 };
 
 /***/ }),
@@ -14056,11 +14056,11 @@ exports = module.exports = __webpack_require__(16)(undefined);
 
 
 // module
-exports.push([module.i, "._1lfHaxH-l7O3FJ0O2e17Qg {\r\n  color:#fff !important;\r\n  background: #000 !important;\r\n}\n._1lfHaxH-l7O3FJ0O2e17Qg a {\r\n  color:#fff !important;\r\n}\n._1lfHaxH-l7O3FJ0O2e17Qg a i {\r\n  color:#fff !important;\r\n}", ""]);
+exports.push([module.i, "._2bcg_IYkOx0NCaNPl7hvll {\n  color:#fff !important;\n  background: #000 !important;\n}\n._2bcg_IYkOx0NCaNPl7hvll a {\n  color:#fff !important;\n}\n._2bcg_IYkOx0NCaNPl7hvll a i {\n  color:#fff !important;\n}", ""]);
 
 // exports
 exports.locals = {
-	"active": "_1lfHaxH-l7O3FJ0O2e17Qg"
+	"active": "_2bcg_IYkOx0NCaNPl7hvll"
 };
 
 /***/ }),
@@ -14072,14 +14072,14 @@ exports = module.exports = __webpack_require__(16)(undefined);
 
 
 // module
-exports.push([module.i, "._2OtTT2fJ3XaLSSriBJdSQ0 {\r\n  -webkit-box-flex: 0;\r\n      -ms-flex: 0 0 180px;\r\n          flex: 0 0 180px;\r\n  background-color: #1c283c;\r\n  color:#717d99;\r\n}\r\n\r\n._2GOaEeXYjD6Mhp1spZZixI {\r\n  text-align:center;\r\n  margin-top: 20px;\r\n}\r\n\r\n._2GOaEeXYjD6Mhp1spZZixI img {\r\n  width: 120px;\r\n  height: 120px;\r\n  border: 1px solid transparent;\r\n  border-radius: 100%;\r\n}\r\n\r\n._1sCJhjBlmHOyOMz8uEYd65 li {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-align: center;\r\n      -ms-flex-align: center;\r\n          align-items: center;\r\n  cursor: pointer;\r\n  height: 40px;\r\n  padding-left:10px;\r\n}\r\n\r\n._1sCJhjBlmHOyOMz8uEYd65 li a {\r\n  color:#717d99\r\n}\r\n\r\n._1sCJhjBlmHOyOMz8uEYd65 li a:hover {\r\n  color:#fff;\r\n}\r\n\r\n._1sCJhjBlmHOyOMz8uEYd65 li:hover {\r\n  color: #fff;\r\n  background-color: #000;\r\n}\r\n\r\n._2XdKsrD_gNNtaNGbhkmGv6 {\r\n  color:#fff !important;\r\n}", ""]);
+exports.push([module.i, "._24MKJ3GFdqDmBY7_q3jQ1t {\n  -webkit-box-flex: 0;\n      -ms-flex: 0 0 180px;\n          flex: 0 0 180px;\n  background-color: #1c283c;\n  color:#717d99;\n}\n\n._3qoSHWl8EK0NYos2KFYJki {\n  text-align:center;\n  margin-top: 20px;\n}\n\n._3qoSHWl8EK0NYos2KFYJki img {\n  width: 120px;\n  height: 120px;\n  border: 1px solid transparent;\n  border-radius: 100%;\n}\n\n.RoVcv0MMLFP0jxPywIqSC li {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  cursor: pointer;\n  height: 40px;\n  padding-left:10px;\n}\n\n.RoVcv0MMLFP0jxPywIqSC li a {\n  color:#717d99\n}\n\n.RoVcv0MMLFP0jxPywIqSC li a:hover {\n  color:#fff;\n}\n\n.RoVcv0MMLFP0jxPywIqSC li:hover {\n  color: #fff;\n  background-color: #000;\n}\n\n._3GcweqDzvIRCk1Avb5Ad3S {\n  color:#fff !important;\n}", ""]);
 
 // exports
 exports.locals = {
-	"menu": "_2OtTT2fJ3XaLSSriBJdSQ0",
-	"avatar": "_2GOaEeXYjD6Mhp1spZZixI",
-	"menu-list": "_1sCJhjBlmHOyOMz8uEYd65",
-	"active": "_2XdKsrD_gNNtaNGbhkmGv6"
+	"menu": "_24MKJ3GFdqDmBY7_q3jQ1t",
+	"avatar": "_3qoSHWl8EK0NYos2KFYJki",
+	"menu-list": "RoVcv0MMLFP0jxPywIqSC",
+	"active": "_3GcweqDzvIRCk1Avb5Ad3S"
 };
 
 /***/ }),
@@ -14091,11 +14091,11 @@ exports = module.exports = __webpack_require__(16)(undefined);
 
 
 // module
-exports.push([module.i, "._25GVNEiL7mR1l_jNRMwMQA  {\r\n  max-width: 1024px;\r\n  background-color: #fff;\r\n  margin: 0 auto;\r\n  min-height: 100%;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n\r\n}", ""]);
+exports.push([module.i, "._3ZAQsMc95elhp4xqdnb2Vx  {\n  max-width: 1024px;\n  background-color: #fff;\n  margin: 0 auto;\n  min-height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n\n}", ""]);
 
 // exports
 exports.locals = {
-	"container": "_25GVNEiL7mR1l_jNRMwMQA"
+	"container": "_3ZAQsMc95elhp4xqdnb2Vx"
 };
 
 /***/ }),
