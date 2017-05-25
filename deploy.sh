@@ -9,7 +9,6 @@ fi
 
 rev=$(git rev-parse --short HEAD)
 
-cd stage/_book
 
 git init
 git config user.name "pengfu"
